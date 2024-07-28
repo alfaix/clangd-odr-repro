@@ -1,0 +1,14 @@
+[
+	{
+		"command": "c++ -g -std=c++23 -stdlib=libc++ -x c++-module -fmodule-file=a=build/a.cppm.pcm -fmodule-output=build/b.cppm.pcm",
+		"directory": "/home/alfaix/dev/projects/gtest-repro",
+		"file": "b.cppm",
+		"output": "build/b.cppm.o"
+	},
+	{
+		"command": "c++ -g -std=c++23 -stdlib=libc++ -x c++-module -fmodule-file=a=build/a.cppm.pcm -fmodule-file=b=build/b.cppm.pcm -fmodule-output=build/c.cppm.pcm",
+		"directory": "/home/alfaix/dev/projects/gtest-repro",
+		"file": "c.cppm",
+		"output": "build/c.cppm.o"
+	}
+]
